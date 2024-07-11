@@ -1,0 +1,18 @@
+{
+  "name": "GetPidLib",
+  "command_name": "getpidlib",
+  "version": "0.1",
+  "extension_author": "sf0x",
+  "original_author": "sf0x",
+  "repo_url": "https://github.com/sf0x/getpidlib/GetPidLibExtension",
+  "help": "Chose the method to enumerate Windows processess and find the PID of a searched process. x64 only because I am lazy. See getpidlib -h for full help",
+  "long_help": "Chose the method to enumerate Windows processess and find the PID of a searched process. x64 only because I am lazy.\n\nAvailable methods are:\n- enum\n- wmi\n- bruteforce\n- ntqueryinfo\n- ntgetnext\n- wtsenum\n- thelp32\n",
+  "entrypoint": "Execute",
+  "files": [
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "path": "GetPidLibExtension.dll"
+    }
+  ]
+}
