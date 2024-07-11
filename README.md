@@ -4,6 +4,8 @@ Proof of concept for techniques to find a PID to a process name in Windows.
 # Index 
 
 [[_TOC_]]
+haha, fuck github
+
 # Information
 
 During my research in malware development I was annoyed that every time I wrote an injection the PID of a target process was required and to get that I had to remember how to do that properly with opsec in mind. Therefor this library was created to have a quick-to-use collection of all proper techniques, which can be applied to any project. The collection was made with evasion of enumeration detection on mind, but does currently not implement additional evasion techniques, since it is only meant to be able to make research on which is the proper one to use against a specific target.
